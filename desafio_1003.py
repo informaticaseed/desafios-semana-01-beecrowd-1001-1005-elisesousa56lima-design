@@ -23,4 +23,4 @@ B = INT(Entrada())
 SOMA = A + B
 
 # Exibe o resultado com a formatação exigida pelo Beecrowd
-Impressão(f"SOMA = {SOMA}")
+print(f"SOMA = {SOMA}")
