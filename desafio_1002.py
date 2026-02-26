@@ -18,14 +18,16 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
-# Define o valor de pi conforme o enunciado
+
+# Definição do valor de pi conforme o enunciado
 PI = 3.14159
 
-# Lê o raio como um número de ponto flutuante (float)
-raio =  Flutuação(Entrada())
+# Leitura do raio (ponto flutuante de dupla precisão)
+raio = float(input())
 
-# Calcula a área (raio ao quadrado vezes pi)
-área = pi * (raio **  2)
+# Cálculo da área: area = pi * raio^2
+area = PI * (raio ** 2)
 
-# Imprime com "A=" e exatamente 4 casas decimais
-Impressão(f"A={Área:.4f}")
+# Exibição do resultado com 4 casas decimais
+# O :.4f garante a formatação correta e o arredondamento necessário
+print(f"A={area:.4f}")
