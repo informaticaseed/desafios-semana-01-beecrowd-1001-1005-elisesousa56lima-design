@@ -11,14 +11,12 @@ você receberá  "Erro de apresentação".
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
-Impressão
-
 # Leitura dos valores inteiros
-A = int (entrada())
-B = int (entrada())
+A = int(input())
+B = int(input())
 
 # Cálculo da soma
 X = A + B
 
 # Impressão do resultado seguindo exatamente o formato solicitado
-Impressão(f"X = {X}")
+print(f"X = {X}")
