@@ -15,3 +15,12 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+# Lê os dois valores inteiros de entrada
+valor1 = INT(Entrada())
+valor2 = INT(Entrada())
+
+# Calcula o produto entre os dois valores
+PROD = valor1 * valor2
+
+# Exibe o resultado com a formatação exata exigida
+Impressão(f"PROD = {Prod.}")
