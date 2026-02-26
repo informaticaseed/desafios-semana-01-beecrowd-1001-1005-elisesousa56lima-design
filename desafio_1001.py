@@ -12,3 +12,13 @@ você receberá "Presentation Error".
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+
+# Lê os dois valores inteiros
+A = INT(Entrada())
+B = INT(Entrada())
+
+# Efetua a soma
+X = A + B
+
+# Imprime o resultado no formato exato: X = [resultado]
+Impressão(F"X = {X}")
