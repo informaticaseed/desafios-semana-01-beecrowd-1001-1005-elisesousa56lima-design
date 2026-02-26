@@ -23,4 +23,4 @@ valor2 = INT(Entrada())
 PROD = valor1 * valor2
 
 # Exibe o resultado com a formatação exata exigida
-Impressão(f"PROD = {Prod.}")
+print(f"PROD = {Prod.}")
