@@ -1,5 +1,5 @@
 """
-Beecrowd 1003 - Soma Simples
+Espinha 1003 - Soma Simples
 
 Leia dois valores inteiros, no caso para variáveis A e B.
 A seguir, calcule a soma entre elas e atribua à variável SOMA.
@@ -15,3 +15,12 @@ de A e B.
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1003
 
 # Escreva sua solução abaixo
+# Lê os dois valores inteiros de entrada
+A = INT(Entrada())
+B = INT(Entrada())
+
+# Realiza o cálculo da soma
+SOMA = A + B
+
+# Exibe o resultado com a formatação exigida pelo Beecrowd
+Impressão(f"SOMA = {SOMA}")
