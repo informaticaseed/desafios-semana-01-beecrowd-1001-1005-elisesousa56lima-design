@@ -31,5 +31,5 @@ peso_B = 7.5
 Mídia = (A * peso_A + B * peso_B)  /  11.0
 
 # Imprime "MEDIA =" com 5 casas decimais
-Impressão(f"MÉDIA = {Mídia:.5f}")
+print(f"MÉDIA = {Mídia:.5f}")
 
