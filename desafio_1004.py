@@ -16,11 +16,11 @@ caso contrário seu programa apresentará a mensagem: "Presentation Error".
 
 # Escreva sua solução abaixo
 # Lê os dois valores inteiros de entrada
-valor1 = INT(Entrada())
-valor2 = INT(Entrada())
+valor1 = int(input())
+valor2 = int(input())
 
 # Calcula o produto entre os dois valores
 PROD = valor1 * valor2
 
 # Exibe o resultado com a formatação exata exigida
-print(f"PROD = {Prod.}")
+print(f"PROD = {PROD}")
